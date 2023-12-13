@@ -1,1 +1,2 @@
-{"image":"docker.io/clojure"}
+{"features":
+  {"ghcr.io/devcontainers-contrib/features/clojure-asdf:2": {}}}
