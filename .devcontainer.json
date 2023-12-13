@@ -1,0 +1,14 @@
+{
+  "name": "Clojure Koans Dev Container",
+  "image": "clojure",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "betterthantomorrow.calva"
+  ],
+  "forwardPorts": [
+    3000
+  ],
+  "postCreateCommand": "lein deps"
+}
